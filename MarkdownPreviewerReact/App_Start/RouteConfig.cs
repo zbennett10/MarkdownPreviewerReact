@@ -13,6 +13,19 @@ namespace MarkdownPreviewerReact
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            ////url route to access comment json
+            //routes.MapRoute(
+            //    name: "Comments",
+            //    url: "comments",
+            //    defaults: new { controller = "Home", action = "Comments" }
+            //);
+
+            //routes.MapRoute(
+            //    name: "NewComment",
+            //    url: "comments/new",
+            //    defaults: new {controller = "Home", action = "AddComment" }
+            //    );
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
