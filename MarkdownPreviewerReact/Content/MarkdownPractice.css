@@ -1,10 +1,18 @@
-﻿.markdownArea {  
-         height:100%;
-         background-color:cadetblue;
+﻿.userInput {
+    max-width: 43%;
+     min-width: 43%;
+      min-height: 499px;
+       background-color: lightblue;
+        float: left;
+         margin: 10px;
 }
 
-.previewArea {
-    background-color:azure;
-    height:100%;
-    color: black;
+.output {
+    word-wrap: break-word;
+    background-color: cadetblue;
+    max-width: 46%;
+    min-width: 46%;
+     min-height: 500px;
+     float: right;
+      margin: 10px;
 }
