@@ -2,7 +2,7 @@
 var MarkdownPreviewer = React.createClass({
  
     getInitialState: function() {
-        var placeholder = "# Enter your markdown here";
+        var placeholder = "# Enter your markdown here \n --- \n    <div></div> \n";
         return {
             text: placeholder,
             textUpdate: this.convertText(placeholder)

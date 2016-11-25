@@ -1,8 +1,8 @@
 ﻿@{
-    ViewBag.Title = "Home";
+    ViewBag.Title = "Markdown Previewer";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<h2 style="text-align:center; font-family:'Montserrat';">@ViewBag.Title</h2>
+
 <html>
 <head>
     <title>
@@ -10,6 +10,7 @@
     </title>
 
     <link href="~/Content/MarkdownPractice.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
@@ -23,5 +24,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
     <script type="text/jsx" src="~/Scripts/MarkdownPractice.jsx"></script>    
 </body>
-
 </html>
+
+<footer style="clear:both">
+    <p>&copy; @DateTime.Now.Year - Zachary Bennett</p>
+</footer>
